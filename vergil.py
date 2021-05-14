@@ -28,17 +28,6 @@ async def on_ready():
     print('Logged in as: ')
     print(bot.user)
     print('-' * 30)
-
-    # mmChannel = bot.get_channel(840582993507647498)
-    # await mmChannel.purge(limit=1)
-
-    # channel1 = bot.get_channel(840582993507647498)
-    # embed1=discord.Embed(title=f"**Call a middleman here**", color=0x021ff7)
-    # embed1.add_field(name="**!call trade details (e.g. tw octane for 100000 credits on pc)**", value=f"the command will create a private channel for your deal with a middleman, please be patient.", inline=False)
-    # embed1.add_field(name="**!call @user trade details (e.g. tw octane for 100000 credits on pc)**", value=f"the command will create a private channel for your deal with a middleman, please be patient.", inline=False)
-    # embed1.set_author(name="Vergil")
-    # embed1.set_footer(text="e:)")
-    # msgg = await channel1.send(embed=embed1)
         
 @bot.event
 async def on_raw_reaction_add(payload):
